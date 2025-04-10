@@ -53,7 +53,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-## 📡 API Endpoints
+## 📡 API Endpoints (Brief)
 
 ### 🔑 Authentication
 
@@ -75,7 +75,7 @@ python manage.py runserver
 
 ### 🔄 Follow System
 
-- **POST** `/api/follow/{username}/` → Follow/Unfollow a user
+- **POST** `/api/follow/{username}/` → Follow/Unfo llow a user
 - **GET** `/api/followers/` → List followers
 - **GET** `/api/following/` → List following
 
@@ -83,6 +83,35 @@ python manage.py runserver
 
 - **GET** `/api/profile/{username}/` → View user profile
 - **PUT** `/api/profile/{username}/` → Update user profile
+
+## 📡 API Endpoints Doc **_Swagger_** (Detailed)
+
+For a comprehensive and interactive API documentation, Swagger UI is integrated into the project. You can access it by navigating to:
+
+- **URL**: `http://127.0.0.1:8000/swagger/`
+
+This provides a user-friendly interface to explore and test all available API endpoints.
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
+
+### 🗂️ Models
+
+In this project, the following models are implemented to support the social media functionality:
+
+- **👤 User**: Represents the users of the platform, including authentication and profile details.
+- **📝 Post**: Stores the content of posts created by users.
+- **❤️ Like**: Tracks likes on posts by users.
+- **💬 Comment**: Manages comments made on posts.
+- **🔄 Follow**: Handles the follow/unfollow relationships between users.
+
+Each model is designed with scalability and security in mind to ensure a robust backend structure.
+
+![alt text](image-5.png)
+![alt text](image-6.png)
 
 ## 🔥 Contributing
 
