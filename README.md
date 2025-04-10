@@ -92,11 +92,11 @@ For a comprehensive and interactive API documentation, Swagger UI is integrated 
 
 This provides a user-friendly interface to explore and test all available API endpoints.
 
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
-![alt text](image-4.png)
+![alt text](./Swagger-demo-images/image.png)
+![alt text](./Swagger-demo-images/image-1.png)
+![alt text](./Swagger-demo-images/image-2.png)
+![alt text](./Swagger-demo-images/image-3.png)
+![alt text](./Swagger-demo-images/image-4.png)
 
 ### 🗂️ Models
 
@@ -110,8 +110,8 @@ In this project, the following models are implemented to support the social medi
 
 Each model is designed with scalability and security in mind to ensure a robust backend structure.
 
-![alt text](image-5.png)
-![alt text](image-6.png)
+![alt text](./Swagger-demo-images/image-5.png)
+![alt text](./Swagger-demo-images/image-6.png)
 
 ## 🔥 Contributing
 
